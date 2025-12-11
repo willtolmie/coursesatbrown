@@ -4,6 +4,7 @@
   import path from 'path';
 
   export default defineConfig({
+    base: '/coursesatbrown/',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
